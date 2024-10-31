@@ -8,9 +8,7 @@ const queryClient = new QueryClient(); // Tạo một instance của QueryClient
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Bọc ứng dụng bằng QueryClientProvider */}
       <QuizzTest />
-      
     </QueryClientProvider>
   );
 }
